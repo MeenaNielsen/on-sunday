@@ -67,7 +67,26 @@
         text-align: center;
         margin: 0;
        }
-       
+       .column{
+        display: flex;
+        width: auto;
+        background-color:#e1a6a6;
+        border: solid yellow;
+        height: 29%;
+        justify-content: space-evenly;
+        
+       }
+       .right{
+        float: left;
+        border: solid rgb(85, 47, 255);
+
+       }
+       .left{
+        width: auto;
+        background-color:aqua;
+        float:right;
+        border:solid brown;
+       }
 
 </style>
 <body>    
@@ -83,11 +102,17 @@
                 <a href="#"><button class="button">Contact</button></a>     
     </nav> 
    <!--  </div>     --> 
-    </header>
+   </header>
     <Main>
+   <section>
+    <div class="column">
+        <div class="right">div right item should be place here</div>
+        <div class="right">pic can be place here</div>    
+    <div class="left">This is my left placement</div>
+</div>
+   </section>      
         
-        </section>
     </Main>
     
 </body>
-</html>padding: 0.25rem 0.5rem;
+</html>
